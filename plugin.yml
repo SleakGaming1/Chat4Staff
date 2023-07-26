@@ -1,0 +1,15 @@
+name: Chat4Staff
+main: SleakGaming1\Chat4Staff\Chat4Staff
+description: Private chatroom for staff members.
+version: 1.0.0
+api: 5.0.0
+author: SleakGaming1
+commands:
+  sc:
+    description: Toggle staff chat
+    aliases: [staffchat]
+    permission: staffchat.command
+permissions:
+  staffchat.command:
+    description: Allows access to staff chat commands.
+    default: op
